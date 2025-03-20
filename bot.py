@@ -255,4 +255,17 @@ async def main():
     await asyncio.gather(*tasks)
 
 if __name__ == "__main__":
+    def show_copyright():
+        """展示版权信息"""
+        copyright_info = f"""{Fore.CYAN}
+        *****************************************************
+        *           X:https://x.com/ariel_sands_dan         *
+        *           Tg:https://t.me/sands0x1                *
+        *           Newton Bot Version 1.0                  *
+        *           Copyright (c) 2025                      *
+        *           All Rights Reserved                     *
+        *****************************************************
+        """
+        {Style.RESET_ALL}
+        print(copyright_info)
     asyncio.run(main())
