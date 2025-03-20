@@ -1,1 +1,12 @@
-cookies.json
+
+[
+    {
+        "name": "__Secure-next-auth.session-token",
+        "value": "token1",
+        "domain": ".magicnewton.com",
+        "proxy":"http://127.0.0.1:7890",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true
+    }
+]
